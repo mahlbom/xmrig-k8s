@@ -25,7 +25,7 @@ spec:
     spec:
       containers:
         - name: xmrig
-          image: brannondorsey/alpine-xmrig:v2.14.1
+          image: brannondorsey/alpine-xmrig:v6.7.2
           imagePullPolicy: Always
           command:
             - ./xmrig
